@@ -1,0 +1,23 @@
+TOKEN=ODI2Nzk1ODMwMTExMTA5MTUz.YGRrnw.dlt0mlZs2ohLncb2nbNW9jO_XTA
+
+PREFIX= ,
+
+OWNER_ID= 779985841090330624
+
+LAVA_HOST=lava.link
+
+LAVA_PORT=80
+
+LAVA_PASS=youshallnotpass
+
+ENABLE_SPOTIFY=true
+
+# you will need these if you enabled spotify
+
+SPOTIFY_ID=c6fc1787a0aa44c095265aa86780f4e1
+
+SPOTIFY_SECRET=a3eb868773eb473cbbd1db30932b1bd7
+
+SPOTIFY_PLAYLIST_PAGE_LIMIT=2
+
+MONGO_URI=mongodb+srv://koushikggff:WRdmMI7kwZTMEeCU@disneybot.riilp.mongodb.net/test
