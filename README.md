@@ -12,6 +12,7 @@
 >  DISNEY  is a  high quality music bot, made by Team Disney DISNEY this is javascript based bot where we are trying to include everything possible join voice channel type  ,play and enjoy your songs.
 
 [Support Server](https://discord.gg/mHdMG8unV4)
+Git Repo ```https://github.com/koushikop5/DISNEY-BETA-BOT.git```
 
 ## FEATURES
 Disney gets ready with zero configuration just give read access where you are going to use it and you are ready to 24/7 music.
