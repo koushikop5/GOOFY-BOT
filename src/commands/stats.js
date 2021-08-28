@@ -1,0 +1,46 @@
+const prettyMs = require("pretty-ms");
+const util = require("../util");
+const moment = require("moment");
+
+module.exports = {
+    name: "stats",
+    aliases: ["stats","info"],
+    exec: (msg) => {
+        /** @type {import("lavacord").LavalinkNode[]} */
+        const nodes = [...msg.client.manager.nodes.values()];
+        
+
+        msg.channel.send(util.embed()
+            
+            /*.setTitle("")
+            .setURL("h")*/
+            .setDescription(
+                nodes.map(node  => {
+                    const cpuLoad = (node.stats.cpu.lavalinkLoad * 100).toFixed(2);
+                    const memFree = (node.stats.memory.free / 1024 / 1024).toFixed(2);
+                  const memUsage = (node.stats.memory.used / 1024 / 1024).toFixed(2);
+                    const uptime = prettyMs(node.stats.uptime, { verbose: true, secondsDecimalDigits: 0 });
+                    const d = moment.duration(msg.client.uptime);
+                    const days = (d.days() == 1) ? `${d.days()} day` : `${d.days()} days`;
+                    const hours = (d.hours() == 1) ? `${d.hours()} hour` : `${d.hours()} hours`;
+                    const seconds = (d.seconds() == 1) ? `${d.seconds()} seconds` : `${d.seconds()} seconds`;
+                    const minutes = (d.minutes() == 1) ? `${d.minutes()} minutes` : `${d.minutes()} minutes`;
+
+                    return `\`\`\`asciidoc
+› Version: 2.0.3
+› Developer: KOUSHIK#7001, Blacky6618
+› Guilds: ${msg.client.guilds.cache.size}
+› Shard: 1
+› Creation Date: 90 days 22 hours 16 minutes 30 seconds
+› Total Players: ${node.stats.players}
+› Total Playing: ${node.stats.playingPlayers}
+› Uptime: ${new Date(node.stats.uptime).toISOString().slice(11, 19)}
+› Memory Usage: ${memFree} MB / ${memUsage} MB\`\`\``                
+                })
+            )
+           .setThumbnail(msg.client.user.displayAvatarURL({ dynamic: true, size: 2048 })) 
+           
+        );
+    }
+};
+
