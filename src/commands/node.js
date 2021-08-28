@@ -10,10 +10,9 @@ module.exports = {
         const nodes = [...msg.client.manager.nodes.values()];
         
 
-        msg.channel.send(util.embed()
+        msg.channel.send(disney.embed()
             
-            /*.setTitle("")
-            .setURL("h")*/
+            
            
             .setDescription(
                 nodes.map(node  => {
@@ -28,7 +27,7 @@ module.exports = {
 
                     return `\`\`\`asciidoc
 Node: Disney.lava 
-Stats: Connected
+Stats: ${Connected}?
 Stats 1: ${node.stats.players}
 Stats 2: ${node.stats.playingPlayers}
 Uptime: ${new Date(node.stats.uptime).toISOString().slice(11, 19)}
