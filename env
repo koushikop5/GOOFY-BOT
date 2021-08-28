@@ -1,4 +1,4 @@
-TOKEN=ODI2Nzk1ODMwMTExMTA5MTUz.YGRrnw.dlt0mlZs2ohLncb2nbNW9jO_XTA
+TOKEN=//your bot token
 
 PREFIX= ,
 
@@ -14,10 +14,10 @@ ENABLE_SPOTIFY=true
 
 # you will need these if you enabled spotify
 
-SPOTIFY_ID=c6fc1787a0aa44c095265aa86780f4e1
+SPOTIFY_ID=
 
-SPOTIFY_SECRET=a3eb868773eb473cbbd1db30932b1bd7
+SPOTIFY_SECRET=
 
 SPOTIFY_PLAYLIST_PAGE_LIMIT=2
 
-MONGO_URI=mongodb+srv://koushikggff:WRdmMI7kwZTMEeCU@disneybot.riilp.mongodb.net/test
+MONGO_URI=
