@@ -36,7 +36,7 @@ Free 24/7 on Disney Bot high quality music more `Coming Soon`
 <a href="https://discordbotlist.com/bots/802771209896853515"><img src="https://discordbotlist.com/api/v1/bots/802771209896853515/widget"></a>
 
 # ⭐ Invite Disney
-• [Disney](https://discord.com/oauth2/authorize?client_id=826795830111109153&scope=bot&permissions=2147478769)
+• [Disney](https://discord.com/oauth2/authorize?client_id=802771209896853515&scope=bot&permissions=2147478769)
 • [Disney 2](https://discord.com/oauth2/authorize?client_id=806374444859654144&scope=bot&permissions=2147478769)
-• [Disney 3](https://discord.com/oauth2/authorize?client_id=802771209896853515&scope=bot&permissions=2147478769)
+• [Disney 3](https://discord.com/oauth2/authorize?client_id=879375018511986708&scope=bot&permissions=2147478769)
 • [Support Server](https://discord.gg/mHdMG8unV4)
