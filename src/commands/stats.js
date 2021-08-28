@@ -16,8 +16,7 @@ module.exports = {
             .setURL("h")*/
             .setDescription(
                 nodes.map(node  => {
-                    const cpuLoad = (node.stats.cpu.lavalinkLoad * 100).toFixed(2);
-                    const memFree = (node.stats.memory.free / 1024 / 1024).toFixed(2);
+                    const cpuLoad = (node.stats.cpu.lavalinkLoad * 100).toFixed);
                   const memUsage = (node.stats.memory.used / 1024 / 1024).toFixed(2);
                     const uptime = prettyMs(node.stats.uptime, { verbose: true, secondsDecimalDigits: 0 });
                     const d = moment.duration(msg.client.uptime);
@@ -30,15 +29,9 @@ module.exports = {
 › Version: 2.0.3
 › Developer: KOUSHIK#7001, Blacky6618
 › Guilds: ${msg.client.guilds.cache.size}
-› Shard: 1
-› Creation Date: 90 days 22 hours 16 minutes 30 seconds
-› Total Players: ${node.stats.players}
-› Total Playing: ${node.stats.playingPlayers}
-› Uptime: ${new Date(node.stats.uptime).toISOString().slice(11, 19)}
-› Memory Usage: ${memFree} MB / ${memUsage} MB\`\`\``                
+\`\`\``                
                 })
             )
-           .setThumbnail(msg.client.user.displayAvatarURL({ dynamic: true, size: 2048 })) 
            
         );
     }
