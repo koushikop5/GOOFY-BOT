@@ -5,8 +5,8 @@
   "scripts": {
     "start": "node ."
   },
-  "repository": "https://github.com/koushikop5",
-  "author": "koushikop5",
+  "repository": "https://github.com/koushikop5/DISNEY-BETA-BOT.git",
+  "developer": "koushikop5",
   "license": "MIT",
   "dependencies": {
     "@lavacord/discord.js": "^0.0.7",
