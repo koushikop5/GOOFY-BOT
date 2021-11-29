@@ -1,3 +1,4 @@
+const shard = require("./bot.js");
 const MusicClient = require("./structures/MusicClient");
 const { Database } = require("quickmongo");
 const db = new Database(process.env.MONGO_URI);
@@ -7,5 +8,5 @@ const client = new MusicClient({
 db.on("ready", () => {
     console.log("Database connected!");
 });
-client.db = db
+client.db = quick.db
 client.build();
