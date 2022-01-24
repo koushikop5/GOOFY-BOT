@@ -1,6 +1,6 @@
 <img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" img src="https://media.discordapp.net/attachments/854210336776650752/891748822898839613/20210714_195042.png">  
 
-# Goofy
+# Goofy Deleted Verification Problem Sed lyf 😔
 
 [![](https://img.shields.io/badge/discord.js-v12.0.0--dev-blue.svg?logo=npm)](https://github.com/discordjs)
 
