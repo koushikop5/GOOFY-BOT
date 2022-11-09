@@ -8,5 +8,5 @@ const client = new MusicClient({
 db.on("ready", () => {
     console.log("Database connected!");
 });
-client.db = quick.db
+client.db = mongoose
 client.build();
