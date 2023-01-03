@@ -1,0 +1,35 @@
+
+TOKEN=//your bot token
+
+PREFIX=//your prefix
+
+OWNER_ID=//your discord id
+
+LAVA_HOST=lava.link
+
+LAVA_PORT=80
+
+LAVA_PASS=youshallnotpass
+
+ENABLE_SPOTIFY=true
+
+# you will need these if you enabled spotify
+
+SPOTIFY_ID=
+
+SPOTIFY_SECRET=
+
+SPOTIFY_PLAYLIST_PAGE_LIMIT=2
+
+MONGO_URI=
+AUTOCONNECT= false
+DISNEY_PORT=
+
+DB_NAME=
+ID=
+CALLBACK=
+SECURITY_BYPASS=
+DJ_ROLE=@
+PATREON_KEY=
+PATREON_TOKEN=
+SENTRY_KEY=
