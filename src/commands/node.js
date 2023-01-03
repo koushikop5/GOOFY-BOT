@@ -25,7 +25,7 @@ module.exports = {
                     const seconds = (d.seconds() == 1) ? `${d.seconds()} seconds` : `${d.seconds()} seconds`;
                     const minutes = (d.minutes() == 1) ? `${d.minutes()} minutes` : `${d.minutes()} minutes`;
 
-                    return `\`\`\`asciidoc
+                    return `\`\`\`yml
 Node: Disney.lava 
 Stats: ${Connected}?
 Stats 1: ${node.stats.players}
