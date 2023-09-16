@@ -1,16 +1,16 @@
 {
-  "name": "Disney Official",
+  "name": "GOOFY-BOT",
   "version": "2.1.0",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node index.js"
   },
-  "repository": "https://github.com/koushikop5/DISNEY-BETA-BOT.git",
+  "repository": "https://github.com/koushikop5/GOOFY-BOT.git",
   "developer": "koushikop5",
   "license": "MIT",
   "dependencies": {
     "@lavacord/discord.js": "^0.0.7",
-    "discord.js": "^12.5.3",
+    "discord.js": "^14.13.0",
     "dotenv": "^10.0.0",
     "lavacord": "^1.1.9",
     "lavasfy": "^2.3.0",

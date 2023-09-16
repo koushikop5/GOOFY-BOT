@@ -1,5 +1,5 @@
-const shard = require("./bot.js");
-const MusicClient = require("./structures/MusicClient");
+const shard = require("./koushikcodez.js");
+const MusicClient = require("./structures/MusicClient.js");
 const { Database } = require("quickmongo");
 const db = new Database(process.env.MONGO_URI);
 const client = new MusicClient({
